@@ -27,15 +27,27 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <!-- Make sure all your bars are the first things in your <body> -->
+        <!-- <header class="bar bar&#45;nav"> -->
+        <!--   <a class="icon icon&#45;left&#45;nav pull&#45;left" href="#"></a> -->
+        <!--   <a class="icon icon&#45;right&#45;nav pull&#45;right" href="./list.html" data&#45;transition="fade"></a> -->
+        <!--   <h1 class="title">Ratchet Sandbox App</h1> -->
+        <!-- </header> -->
+
+        <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+        <!-- <div class="content"> -->
+        <!--   <a href="list.html" data&#45;transition="slide&#45;in">slide</a> -->
+        <!-- </div> -->
         <header class="bar bar-nav">
+          <a class="icon icon-left-nav pull-left" href="index.html" data-transition="slide-out"></a>
           <h1 class="title">Push</h1>
         </header>
         <div class="content">
           <div class="card">
             <ul class="table-view">
-              <li class="table-view-cell">
-                <a class="navigate-right" href="./list.html" data-transition="slide-in">List</a>
-              </li>
+              <li class="table-view-cell">List 1</li>
+              <li class="table-view-cell">List 2</li>
+              <li class="table-view-cell">List 3</li>
             </ul>
           </div>
         </div>
