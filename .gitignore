@@ -27,3 +27,7 @@ bower_components
 
 # Users Environment Variables
 .lock-wscript
+
+# Sass
+.sass-cache
+.tmp
