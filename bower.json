@@ -1,0 +1,7 @@
+{
+  "name": "ratchet-sandbox",
+  "private": true,
+  "dependencies": {
+    "ratchet": "2.0.2"
+  }
+}
